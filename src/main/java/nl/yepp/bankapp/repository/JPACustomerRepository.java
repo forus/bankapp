@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-@Primary
 public interface JPACustomerRepository extends CrudRepository<Customer, Long>, CustomerRepository {
 
 }
